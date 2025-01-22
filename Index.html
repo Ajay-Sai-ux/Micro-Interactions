@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <div class="card">
+            <div class="main-content">
+                <textarea class="text-area" placeholder="What’s happening?"></textarea>
+
+                <div class="inner-container">
+
+                    <div class="mask">
+
+                        <div class="date-select" id="date-select">
+    
+                            <div class="field">
+                                <select name="01, Jan2025">
+                                    <option value="01, Jan2025">01, Jan2025</option>
+                                    <option value="02, Jan2025">02, Jan2025</option>
+                                </select>
+                                <select name="12:00 AM">
+                                    <option value="12:00 AM">12:00 AM</option>
+                                    <option value="01:00 PM">01:00 PM</option>
+                                </select>
+                            </div>
+    
+                            <div class="close" id="close"><img src="./Assets/close.svg" alt=""></div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="primary-actions">
+                        <div class="cal" id="cal"><img src="./Assets/calender.svg" alt=""></div>
+                        <button class="post-button" id="post-button">Post</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="message" id="message">
+                <p>Will be posted on 01 Jan2025 at 12:00 AM</p>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
